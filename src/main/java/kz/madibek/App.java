@@ -25,7 +25,7 @@ public class App
 
         System.out.println( "QR Code Demo!" );
 
-        String textToQRCode = "Some text for QR Code";
+        String textToQRCode = "https://madibek.github.io/my-site";
         generateQRCode(textToQRCode, IMG_FILE_NAME);
         System.out.println("\nQR Code generated successfully!");
 
@@ -49,29 +49,29 @@ public class App
 
         String extension;
         if (imgFileName.endsWith(".emf"))
-            extension = ".emf";
+            extension = "emf";
         else if (imgFileName.endsWith(".wmf"))
-            extension = ".wmf";
+            extension = "wmf";
         else if (imgFileName.endsWith(".pict"))
-            extension = ".pict";
+            extension = "pict";
         else if (imgFileName.endsWith(".jpeg"))
-            extension = ".jpeg";
+            extension = "jpeg";
         else if (imgFileName.endsWith(".jpg"))
-            extension = ".jpg";
+            extension = "jpg";
         else if (imgFileName.endsWith(".png"))
-            extension = ".png";
+            extension = "png";
         else if (imgFileName.endsWith(".dib"))
-            extension = ".dib";
+            extension = "dib";
         else if (imgFileName.endsWith(".gif"))
-            extension = ".gif";
+            extension = "gif";
         else if (imgFileName.endsWith(".tiff"))
-            extension = ".tiff";
+            extension = "tiff";
         else if (imgFileName.endsWith(".eps"))
-            extension = ".eps";
+            extension = "eps";
         else if (imgFileName.endsWith(".bmp"))
-            extension = ".bmp";
+            extension = "bmp";
         else if (imgFileName.endsWith(".wpg"))
-            extension = ".wpg";
+            extension = "wpg";
         else {
             throw new RuntimeException("Specify file extension");
         }
