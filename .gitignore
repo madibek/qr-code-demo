@@ -1,0 +1,23 @@
+alf_data_dev/
+target/
+.idea/
+.settings/*
+.project
+.classpath
+.bpmn/
+
+# Logs and databases #
+######################
+*.log*
+*.db
+
+# Idea #
+########
+*.ipr
+*.iml
+*.iws
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
