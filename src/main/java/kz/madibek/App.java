@@ -28,6 +28,7 @@ public class App
         String textToQRCode = "https://madibek.github.io/my-site";
         generateQRCode(textToQRCode, IMG_FILE_NAME);
         System.out.println("\nQR Code generated successfully!");
+        System.out.println("\nQR Code generated successfully!");
 
         String text = decodeQRCode(IMG_FILE_NAME);
         System.out.println("\nDecoded QR code text: " + text);
